@@ -26,8 +26,7 @@ namespace tugas
         {
             InitializeComponent();
         }
-      
-
+        
         private void savebtn_Click(object sender, RoutedEventArgs e)
         {
             if (textnama.Text=="" || textumur.Text=="" || textalamat.Text=="" || textkontak.Text == "")
@@ -54,12 +53,9 @@ namespace tugas
         }
         private void selectbtn_Click(object sender, RoutedEventArgs e)
         {
-            textnama.Text = data.SelectedIndex.ToString();
-            textumur.Text = data.SelectedItem.ToString();
-            textalamat.Text = data.SelectedItem.ToString();
-            textkontak.Text = data.SelectedItem.ToString();
+          
             int row = data.SelectedIndex;
-            data.Items.RemoveAt(row);
+          
 
         }
 

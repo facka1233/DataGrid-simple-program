@@ -14,7 +14,7 @@
         <Label Content="Contact" HorizontalAlignment="Left" Margin="10,202,0,0" VerticalAlignment="Top"/>
         <Button x:Name="savebtn" Content="Save" HorizontalAlignment="Left" Margin="365,254,0,0" VerticalAlignment="Top" Width="50" Click="savebtn_Click" />
         <Button x:Name="cancelbtn" Content="cancel" HorizontalAlignment="Left" Margin="420,254,0,0" VerticalAlignment="Top" Width="50" Click="cancelbtn_Click"/>
-        <TextBox x:Name="textnama" HorizontalAlignment="Left" Margin="66,66,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="271"/>
+        <TextBox x:Name="textnama" HorizontalAlignment="Left" Margin="66,66,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="271" />
         <TextBox x:Name="textumur" HorizontalAlignment="Left" Margin="66,103,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="60"/>
         <TextBox x:Name="textalamat" HorizontalAlignment="Left" Margin="63,155,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="271"/>
         <TextBox x:Name="textkontak" HorizontalAlignment="Left" Margin="66,206,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="271"/>
